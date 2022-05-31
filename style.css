@@ -7,23 +7,46 @@
 body{
     width: 100%;
     height: 100%;
-    background-color: rgb(32,35,48);    
+    background-color: #0a192f;    
 }
 
-#particles-js{
-    background:rgb(32,35,48);
-    height: 100%;
+
+#intro{
+    position: absolute;
+    color: #64FFDA;
+    top:39%;
+    left:13%;
+    font-size: 40px;
+    font-family: monospace;
+    
 }
 
 #logo{
     position: absolute;
-    width: 75%;
-    height: 75%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 13%;
     animation: fill 0.5s ease forwards 1.5s;
 } 
+
+#intro2{
+    position: absolute;
+    color: #8892B0;
+    top:54%;
+    left:13%;
+    font-size: 100px;
+    font-weight: 900;
+    font-family: monospace;
+    
+}
+
+#particles-js{
+    background:#0a192f;
+    height: 100%;
+}
+
+
 
 
 
@@ -190,7 +213,7 @@ body{
         fill: transparent;
     }
     to{
-        fill:white;
+        fill:#CCD6F6;
     }
 }
 
